@@ -43,9 +43,7 @@ python emotions.py --mode display
   * `haarcascade_frontalface_default.xml` (file)
   * `model.h5` (file)
 
-* This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
-![Accuracy plot](imgs/accuracy.png)
 
 ## Data Preparation (optional)
 
@@ -63,14 +61,3 @@ python emotions.py --mode display
 
 * The emotion with maximum score is displayed on the screen.
 
-## Example Output
-
-![Mutiface](imgs/multiface.png)
-
-## References
-
-* "Challenges in Representation Learning: A report on three machine learning contests." I Goodfellow, D Erhan, PL Carrier, A Courville, M Mirza, B
-   Hamner, W Cukierski, Y Tang, DH Lee, Y Zhou, C Ramaiah, F Feng, R Li,  
-   X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
-   M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
-   Y. Bengio. arXiv 2013.
