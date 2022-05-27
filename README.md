@@ -52,7 +52,7 @@ python emotions.py --mode display
 * In case you are looking to experiment with new datasets, you may have to deal with data in the csv format. I have provided the code I wrote for data preprocessing in the `dataset_prepare.py` file which can be used for reference.
 * * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
-![Accuracy plot](imgs/accuracy.png)
+![Accuracy plot](accuracy.png)
 
 ## Algorithm
 
